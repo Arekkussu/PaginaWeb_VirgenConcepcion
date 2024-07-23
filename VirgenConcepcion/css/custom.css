@@ -1,11 +1,25 @@
 body {
     background-color: #f8f9fa;
     color: #343a40;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif; /* Aplicar la fuente a todo el cuerpo del documento */
 }
 
 .navbar-nav .nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #282c34;
+    font-family: 'Merriweather', serif; /* Aplicar la fuente específicamente a los enlaces del navbar */
+    font-weight: 400; /* Ajusta el peso de la fuente según lo necesites */
+    color: #343a40; /* Color del texto de los enlaces */
+    margin: 0 15px; /* Espacio entre los enlaces */
+}
+
+.navbar-brand {
+    margin-right: auto; /* Asegura que el logo esté a la izquierda */
+}
+
+.navbar-collapse {
+    justify-content: center; /* Centra los elementos del navbar */
+}
+
+.navbar {
+    background-color: #343a40; /* Color de fondo oscuro para el navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */
 }
